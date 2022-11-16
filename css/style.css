@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -10,9 +11,10 @@
     margin: 0 auto;
 }
 
-/* REGOLE HEADRE  */
+/* REGOLE HEADRER  */
 header {
-    background-color: orange;
+    background-color: #ff6900;
+    color: white;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -20,13 +22,31 @@ header {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .header-content {
     width: calc(100% / 3);
-    height: 80px;
-    background-color: orange;
-    border: 1px dashed black;
+}
+
+.menu ul li {
+    display: inline;
+    text-align: left;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 50%;
+    padding: 15px 0px;
+    margin-left: 80px;
+}
+
+.account {
+    text-align: right;
 }
 
 /* REGOLE MAIN  */
