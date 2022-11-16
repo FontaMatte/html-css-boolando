@@ -63,7 +63,7 @@ main {
 
 .product {
     width: 320px;
-    margin: 30px 0;
+    margin: 50px 0;
 }
 
 .product-top {
@@ -73,12 +73,25 @@ main {
 
 .product-top img {
     width: 100%;
-
 }
 
-.product-top:nth-child(2) {
+.hidden-image {
     display: none;
 }
+
+.product:hover .hidden-image{
+    display: block;
+    cursor: pointer;
+}
+
+.product:hover .main-image {
+    display: none;
+}
+
+/* .heart-box:hover .favorite {
+    color: red;
+    cursor:pointer;
+} */
 
 .heart-box {
     width: 40px;
@@ -98,8 +111,6 @@ main {
     position: absolute;
     bottom: 20px;
     left: 0px;
-
-
 }
 
 .discount {
