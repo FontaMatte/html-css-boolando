@@ -63,7 +63,6 @@ main {
 
 .product {
     width: 320px;
-    border: 1px dashed black;
     margin: 30px 0;
 }
 
@@ -90,6 +89,11 @@ main {
     right: 0px;   
 }
 
+.favorite {
+    margin: 12px;
+    line-height: 40px;
+}
+
 .special {
     position: absolute;
     bottom: 20px;
@@ -101,12 +105,23 @@ main {
 .discount {
     height: 20px;
     background-color: red;
+    color: white;
     display: inline-block;
+}
+
+.discounted-price {
+    color: red;
+    margin-right: 10px;
+}
+
+.normal-price {
+    text-decoration-line: line-through;
 }
 
 .sustainability {
     height: 20px;
     background-color: green;
+    color: white;
     display: inline-block;
 }
 
