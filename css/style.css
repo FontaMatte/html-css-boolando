@@ -1,5 +1,97 @@
+/* REGOLE GENERALI */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* REGOLE HEADRE  */
+header {
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-content {
+    width: calc(100% / 3);
+    height: 80px;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+/* REGOLE MAIN  */
+
+main {
+    padding-top: 80px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 320px;
+    height: 500px;
+    border: 1px dashed black;
+    margin: 30px 0;
+    position: relative;
+}
+
+.product-top {
+    width: 100%;
+    height: 85%;
+    background-color: yellow;
+    position: relative;
+}
+
+.heart-box {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    
+}
+
+.special {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+
+}
+
+.discount {
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    /* position: absolute;
+    left: 0px;
+    bottom: 20px; */
+}
+
+.sustainability {
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    display: inline-block;
+}
+
+.product-bottom {
+    width: 100%;
+    height: 15%;
+    background-color: chartreuse;
 }
