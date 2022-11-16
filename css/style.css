@@ -78,9 +78,6 @@ main {
     height: 20px;
     background-color: red;
     display: inline-block;
-    /* position: absolute;
-    left: 0px;
-    bottom: 20px; */
 }
 
 .sustainability {
@@ -94,4 +91,29 @@ main {
     width: 100%;
     height: 15%;
     background-color: chartreuse;
+}
+
+/* REGOLE FOOTER  */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    width: 50%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.footer-right {
+    width: 50%;
+    height: 50px;
+    background-color: blueviolet;
 }
