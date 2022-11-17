@@ -23,15 +23,11 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-}
-
-.header-content {
-    width: calc(100% / 3);
+    justify-content: space-between;
 }
 
 .menu ul li {
     display: inline;
-    text-align: left;
 }
 
 .menu a {
@@ -39,14 +35,12 @@ header {
     text-decoration: none;
 }
 
-header img {
-    width: 50%;
-    padding: 15px 0px;
-    margin-left: 80px;
+.logo {
+    padding: 20px;
 }
 
-.account {
-    text-align: right;
+.logo img {
+    height: 30px;
 }
 
 /* REGOLE MAIN  */
@@ -62,7 +56,7 @@ main {
 }
 
 .product {
-    width: 320px;
+    width: calc(100% / 3 - 20px);
     margin: 50px 0;
 }
 
@@ -80,7 +74,7 @@ main {
 }
 
 .product:hover .hidden-image{
-    display: block;
+    display: inline-block;
     cursor: pointer;
 }
 
@@ -117,7 +111,6 @@ main {
     height: 20px;
     background-color: red;
     color: white;
-    display: inline-block;
 }
 
 .discounted-price {
