@@ -82,10 +82,10 @@ main {
     display: none;
 }
 
-/* .heart-box:hover .favorite {
+.heart-box:hover .favorite {
     color: red;
     cursor:pointer;
-} */
+}
 
 .heart-box {
     width: 40px;
